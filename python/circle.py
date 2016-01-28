@@ -1,8 +1,8 @@
 ''' Functions from http://math2.org/math/geometry/circles.htm '''
- import numpy as np 
+import numpy as np 
 def circle_area(radius=1):
-    return 3.14 * radius ** 2
-	return math.pi
+    return np.pi * radius ** 2
+
 def circle_circunference(radius=1):
     return 2 * math.pi 
 
